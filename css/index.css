@@ -70,18 +70,16 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    /* border: 2px solid black; */
+   
 }
 .header {
     display: flex;
-    /* justify-content: center; */
-    /* display-flex: flex-start; */
 }
 
 header {
 
 display: flex;
-/* justify-content: center; */
+
 width: 800px;
 margin: 0 auto;
 padding-top: 1%;
@@ -97,23 +95,30 @@ header nav a {
     
 }
 .hlinks {
-/* border-right-width: thick; */
 padding-left: 21%;
-/* padding-bottom: 5 %; */
 margin: 7% 0 5% 0;
-/* box-sizing: border-box; */
-/* text-align: center; */
 }
 
 .bg-img1 {
     background-image: url("../img/lambda-black.png");
     padding: 0% 30%  ;
     background-repeat: no-repeat;
-    /* justify-content: space-evenly; */
-    /* box-sizing: border-box; */
-    /* align-items: flex-end; */
-    /* margin-bottom: 1px; */
 }
+.summary {
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .bg-img2 {
 
@@ -122,10 +127,85 @@ background-repeat: no-repeat;
 padding: 4%;
 width: 800px;
 margin: 0 auto;
-padding-bottom: 7%;
-
+padding-bottom: 5%;
+display: flex;
+justify-content: flex-end;
 
 }
+.headerimg {
+background-image: url("../img/jumbo-about.png");
+background-repeat: no-repeat;
+padding: 4%;
+width: 800px;
+margin: 0 auto;
+padding-bottom: 5%;
+margin-bottom: 20px;
+
+}
+
+.aboutpara {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.boxes1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    padding-bottom: px;
+    
+}
+.boxes1 button a {
+    text-decoration: none;
+    padding: auto 1%;
+    color: black;
+    border-radius: 50%;
+}
+.boxes1 button{
+    border-radius: 10%;
+}
+.boxes2  p {
+    padding-bottom: 5%;
+}
+.boxes2 {
+    padding-bottom: 5%;
+}
+.boxes2 h2 {
+    padding-top: 10px;
+    color: black;
+    font-weight: bolder;
+    
+}
+.boxes3 {
+    padding-bottom: 4%;
+    border-bottom: dashed 1px black;
+    margin-bottom: 9%;
+}
+.boxes3 p {
+    padding-bottom: 5%;    
+}
+.boxes3 h2{
+    padding-top: 10px;
+    color: black;
+    font-weight: bolder;    
+}
+.container about-page {
+    border-bottom: dashed black;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -172,7 +252,36 @@ padding-bottom: 7%;
     align-items: center;
     justify-content: center;
 }
-
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -185,6 +294,9 @@ padding-bottom: 7%;
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.text-container h2 {
+    padding-top: 5%;;
 }
 
 footer {
