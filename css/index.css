@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,40 +41,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
-    
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
-   
 }
 .header {
     display: flex;
 }
-
 header {
-
 display: flex;
-
 width: 800px;
 margin: 0 auto;
 padding-top: 1%;
@@ -89,16 +74,11 @@ header nav a {
     text-decoration: none;
     color: black;
     padding-left: 0.63em;
-    /* vertical-align: ; */
-    
-    
-    
 }
 .hlinks {
 padding-left: 21%;
 margin: 7% 0 5% 0;
 }
-
 .bg-img1 {
     background-image: url("../img/lambda-black.png");
     padding: 0% 30%  ;
@@ -107,21 +87,16 @@ margin: 7% 0 5% 0;
 .summary {
     padding-bottom: 3%;
     padding-top: 1%;
+    padding-left: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.summary h2 {
+    font-weight:bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .bg-img2 {
-
 background-image: url("../img/jumbo.jpg");
 background-repeat: no-repeat;
 padding: 4%;
@@ -130,7 +105,6 @@ margin: 0 auto;
 padding-bottom: 5%;
 display: flex;
 justify-content: flex-end;
-
 }
 .headerimg {
 background-image: url("../img/jumbo-about.png");
@@ -140,77 +114,61 @@ width: 800px;
 margin: 0 auto;
 padding-bottom: 5%;
 margin-bottom: 20px;
-
 }
-
 .aboutpara {
     width: 800px;
     margin: 0 auto;
-    padding-bottom: 2%;
+    padding: 1.5%;
+    padding-top: initial;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
-
+.aboutpara h2 {
+    font-weight: bolder;
+}
 .boxes1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: black;
     padding-bottom: px;
-    
 }
-.boxes1 button a {
+.boxes1 a {
     text-decoration: none;
-    padding: auto 1%;
+    padding: 3% 5%;
     color: black;
-    border-radius: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 75%;
+    font-weight: bold;
 }
-.boxes1 button{
-    border-radius: 10%;
+.boxes1 a:hover {
+    display: none;
+    
 }
 .boxes2  p {
     padding-bottom: 5%;
-}
-.boxes2 {
-    padding-bottom: 5%;
-}
-.boxes2 h2 {
-    padding-top: 10px;
-    color: black;
-    font-weight: bolder;
     
 }
-.boxes3 {
+.boxes2 {
     padding-bottom: 4%;
-    border-bottom: dashed 1px black;
-    margin-bottom: 9%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5%;
+    padding-top: 1%;
 }
-.boxes3 p {
-    padding-bottom: 5%;    
-}
-.boxes3 h2{
-    padding-top: 10px;
+.boxes2 h2 {
+    padding-top: 10%;
     color: black;
-    font-weight: bolder;    
+    font-weight: bolder;
 }
+
 .container about-page {
     border-bottom: dashed black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,30 +176,25 @@ margin-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bolder;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -287,23 +240,20 @@ margin-bottom: 20px;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 .text-container h2 {
-    padding-top: 5%;;
+    padding-top: 5%;
+    font-weight: bolder;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
